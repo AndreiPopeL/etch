@@ -1,0 +1,29 @@
+.row {
+    
+    display: flex;
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+}
+.cell { 
+    width: 20px; 
+    height: 20px;
+    margin: 1px;
+    border: 1px solid black;
+    
+}
+
+.cell:hover {
+    background-color: rgb(160, 101, 216);
+}
+
+.cell2 {
+    border: 2px solid black;
+}
+
+.row2 {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
